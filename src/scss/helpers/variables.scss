@@ -1,0 +1,59 @@
+//COLORS//
+
+$white:#fff;
+$border-footer:#E18B8B;
+$footer-bg:#AEAEAE;
+$input-background:rgba(0, 0 , 0 , 0.5);
+$title:#979797;
+$names:#222222;
+$random:#228282;
+
+.hide{
+  display: none;
+}
+
+@font-face {
+  font-family: 'gotham_blackregular';
+  src: url("../../assets/fonts/gotham-black-webfont.woff2") format("woff2"), url("../../assets/fonts/gotham-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url("../../assets/fonts/gotham-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/gotham-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham_bookregular';
+  src: url("../../assets/fonts/gotham-book-webfont.woff2") format("woff2"), url("../../assets/fonts/gotham-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham_lightregular';
+  src: url("../../assets/fonts/gotham-light-webfont.woff2") format("woff2"), url("../../assets/fonts/gotham-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gotham_mediumregular';
+  src: url("../../assets/fonts/gotham-medium-webfont.woff2") format("woff2"), url("../../assets/fonts/gotham-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../../assets/fonts/Gotham-Light.eot");
+  src: url("../../assets/fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Gotham-Light.woff2") format("woff2"), url("../../assets/fonts/Gotham-Light.woff") format("woff"), url("../../assets/fonts/Gotham-Light.ttf") format("truetype"), url("../../assets/fonts/Gotham-Light.svg#Gotham-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@media screen and (min-width: 48rem) {
+        .hidden-mob{
+          display: block !important
+        }
+        .hidden-desktop{
+          display: none;
+        }
+  }

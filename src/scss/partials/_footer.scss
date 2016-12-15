@@ -1,0 +1,192 @@
+footer {
+
+  height: auto;
+  width: 100%;
+  background: url("../../assets/img/foot-bg.png");
+  position: relative;
+  max-width: 1440px;
+
+
+
+  .footer-top {
+      position: relative;
+    }
+
+  .footer-top .wrap {
+        margin-top: 0px;
+        padding-top: 2rem;
+        padding-bottom: 7rem;
+      }
+
+  .footer-top .wrap h2 {
+          font-size: 1.125rem;
+          color: #979797;
+          font-family: "gotham_bookregular";
+          margin-top: 16px;
+          margin-top: 1rem;
+        }
+  .footer-top .social {
+          position: absolute;
+          z-index: 10;
+          width: 260px;
+          top: 15px;
+          left: -3rem;
+        }
+  .footer-top .social li {
+          position: relative;
+          display: inline-block;
+          /*
+            &:before {
+            	content: "";
+            	position: absolute;
+            	top: -15px;
+            	left: 0;
+            	width: 0;
+            	height: 0;
+            	border-left: 30px solid transparent;
+            	border-right: 30px solid transparent;
+            	border-bottom: 15px solid $social;
+            }
+            &:after {
+            	content: "";
+            	position: absolute;
+            	bottom: -15px;
+            	left: 0;
+            	width: 0;
+            	height: 0;
+            	border-left: 30px solid transparent;
+            	border-right: 30px solid transparent;
+            	border-top: 15px solid $social;
+            }
+  */ }
+
+.footer-top .social li a {
+    background: url("../../assets/img/google_plus.png") no-repeat;
+    background-size: cover;
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+
+.footer-bottom {
+  background-color: #AEAEAE;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+
+ }
+
+ .hidden-desktop{
+   background: $white;
+   padding: 0px;
+   max-width: 100%;
+   border-bottom: 3px solid #E18B8B;
+   .social{
+     margin: 0 auto;
+     max-width: 250px;
+     -webkit-margin-before: 0em;
+     -webkit-margin-after: 0em;
+     -webkit-padding-start: 0px;
+     padding: 1rem 0;
+
+     li {
+       display: inline-block;
+       a {
+           background: url("../../assets/img/google_plus.png") no-repeat;
+           background-size: cover;
+           display: block;
+           width: 64px;
+           height: 64px;
+       }
+     }
+   }
+ }
+
+  .footer-bottom {
+    .copyright {
+      display: block;
+      color: #fff;
+      font-size: 0.875rem;
+      font-family: ArialMT;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+    .hidden-mob{
+      display: none;
+    }
+
+    .hidden-desktop{
+      background: none;
+      padding: 0px;
+      max-width: 100%;
+      border-bottom: none;
+      text-align: center;
+      display: block;
+      font-size: 0.875rem;
+      font-family: ArialMT;
+      color:$white;
+      display:block;
+    }
+    .hidden-desktop.top{
+      margin-top: 2rem;
+      letter-spacing: 0.8px;
+    }
+
+
+  }
+  span.text-uppercase.copyright.hidden-desktop {
+    margin-top: -8px;
+    font-size: 0.85rem;
+  }
+  span.text-uppercase.copyright.hidden-desktop.bottom{
+    margin-top: 12px;
+  }
+
+
+  .hidden-mob{
+    display: none;
+  }
+
+}//end footer
+
+
+
+
+
+@media screen and (min-width: 48rem) {
+    footer {
+      height: 247px;
+      border-top: 3px solid #E18B8B;
+      .footer-top .wrap {
+        padding-top:0px;
+        padding-bottom: 0px;
+        margin-top: 36px;
+      }
+      .footer-bottom{
+        .hidden-desktop{
+          display: none;
+        }
+      }
+    }
+}
+@media screen and (max-width: 767px) {
+  footer{
+    span.text-uppercase.copyright {
+        max-width: 175px;
+        text-align: center;
+    }
+  }
+}
+
+
+@media screen and (min-width: 80rem) {
+    footer {
+      .footer-top .social {
+           left: -5rem;
+        }
+    }
+}
